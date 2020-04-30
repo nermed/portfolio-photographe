@@ -1,0 +1,207 @@
+/* import fonts from fonts file*/
+@import url('./fonts.css');
+
+/* import variables */
+@import url('./partials.css/_variables.css');
+
+/* import global css */
+@import url('./partials.css/_global.css');
+
+/* start header */
+.header_area .main-menu .navbar .navbar-brand{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 3rem;
+    padding-bottom: 0;
+}
+.header_area .main-menu .navbar{
+    padding: 1rem 2rem;
+    height: 3.5rem;
+    /*background-color: black;*/
+}
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px 'Cormorant';
+    text-transform: uppercase;
+    padding: 0.7rem;
+    color: black;
+}
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end header */
+/* Banner Area */
+.site-main .site-banner .site-title h3{
+    padding-top: 26%;
+    font-weight: 500;
+    font-family: 'Mark Script';
+}
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 21vw;
+    /*background: black;*/
+    display: inline-block;
+    margin-left: 1%;
+    transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h2{
+    font-size: 3rem;
+    font-family: 'Mark Script';
+}
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+    font-family: 'Mark Script';
+    
+}
+.site-main .site-banner .banner-image>img{
+    padding: 2rem;
+    width: 30rem;
+    height: 30rem;
+}
+/* End Banner */
+/* Start About Area */
+.site-main .about-area{
+    padding: 8rem 4rem;
+}
+.site-main .about-area .about-title h2>span{
+    display: block;
+    font: normal bold 55px/60px;
+    letter-spacing: 21px;
+    }
+.site-main .about-area .about-title .paragraph > p{
+    padding: 4rem 0;
+}
+/* End About area */
+/* Services area */
+.site-main .services-area{
+    padding: 10rem 2rem;
+}
+.site-main .services-area .services-title{
+    padding: 0 5rem;;
+}
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+.site-main > .services-area .services{
+    background: rgba(246, 249, 250, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 3rem .5rem;
+    /*box-shadow: #ACF5FE;*/
+    transition: box-shadow .6s ease;
+}
+.site-main > .services-area .services:hover{
+    box-shadow: #ECF5EC;
+}
+/* End Service Area */
+/* Project Area */
+.site-main .project-area{
+    padding: 0.5rem 0;
+}
+.site-main .project-area .button-group button{
+    background: transparent;
+    padding-bottom: 2rem;
+    border: none;
+    font: normal 500 16px/130px;
+    text-transform: uppercase;
+}
+.site-main .project-area .button-group button + button{
+    padding-left: 4rem;
+}
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px;
+}
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 7px 20px #b1afaf);
+}
+/*End Project Area */
+/* Client Me Area */
+.site-main .client-area .about-title p{
+    padding: 2rem 7rem;
+}
+.site-main .about-area .client{
+    background: #E5E7E5;
+    box-shadow: #B1BFB7;
+    margin: 3rem 0rem;
+}
+.site-main .client-area .client .client-img{
+    padding: 2rem;
+}
+.site-main .client-area .client .about-client{
+    padding-top: 2rem;
+}
+.site-main .client-area .client .about-client h4{
+    font: normal 500 21px/20px;
+}
+.site-main .client-area .client .about-client p{
+    font-size: 14px;
+}
+.site-main .client-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+.site-main .client-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+/* End Client Area */
+/* Subscribe ME Area */
+.site-main .subscribe-area .suscribe{
+    background-image: url(../img/background.png);
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+.site-main .subscribe-area .suscribe .subscribe-title h4{
+    font: normal 700 30px/30px;
+    color: whitesmoke;
+}
+.site-main .subscribe-area .subscribe .subscribe-title p{
+    /*color: whitesmoke;*/
+    padding: 1rem 4rem;
+}
+.site-main .subscribe-area .subscribe form .input-textbox input{
+    width: 350px;
+    padding: 1.5rem 1rem;
+    border: 1px solid #AAC3B7;
+    background: transparent;
+    color: black;
+    font: normal 500 17px/20px;
+}
+.site-main .subscribe-area .subscribe form .input-textbox input::placeholder{
+    color: black;
+}
+.site-main .subscribe-area .subscribe form .btn-submit button{
+    background: whitesmoke;
+    color: #000;
+    padding: .7rem 2rem;
+}
+/* End Subscribe */
+/* Footer Area */
+footer.footer-area{
+    padding: 1.5rem 0;
+    /*background: #C3CAC6;*/
+}
+footer.footer-area .social h5{
+    font: normal 500 23px/30px;
+}
+footer.footer-area .social a>i{
+    font-size: 22px;
+    padding: 1rem;
+    color: var(--border-color);
+}
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+/* End Footer Area*/
