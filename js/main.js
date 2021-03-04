@@ -45,5 +45,14 @@ $(document).ready(function(){
         }
     }
     navbarFixed();
+    //change la partie active
+    /*let nav = document.querySelectorAll('.navbar-nav a')
+    for(let i = 0; i < nav.length; i++){
+        nav[i].addEventListener('click', function(e){
+
+            var li = a.parentNode
+            var 
+        })
+    }*/
 
 })
